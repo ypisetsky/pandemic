@@ -52,8 +52,8 @@ class MainWindow extends React.Component {
         <option value="yellow">Yellow</option>
         <option value="black">Black</option>
         <option value="red">Red</option>
-      </select>
-      <button name="Add card" onClick={this.addCard} />
+      </select>{" "}
+      <button name="Add card" onClick={this.addCard}>Add Card</button>
     </span>;
   }
 
