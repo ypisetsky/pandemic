@@ -7,14 +7,19 @@ const Data = [
     Count: 3,
   },
   {
-    Name: "Washington",
+    Name: "Chicago",
     Color: "blue",
-    Count: 3,
+    Count: 2,
   },
   {
-    Name: "London",
+    Name: "Atlanta",
     Color: "blue",
-    Count: 3,
+    Count: 1,
+  },
+  {
+    Name: "Paris",
+    Color: "blue",
+    Count: 2,
   },
   {
     Name: "Jacksonville",
@@ -22,14 +27,19 @@ const Data = [
     Count: 3,
   },
   {
-    Name: "São Paulo",
+    Name: "Kinshasa",
     Color: "yellow",
-    Count: 3,
+    Count: 1,
   },
   {
     Name: "Lagos",
     Color: "yellow",
     Count: 3,
+  },
+  {
+    Name: "Buenos Aires",
+    Color: "yellow",
+    Count: 1,
   },
   {
     Name: "Istanbul",

@@ -52,3 +52,18 @@ export class CardData {
      />;
   }
 }
+
+export function CompareCards(card1, card2) {
+  if (card1.color != card2.color) {
+    if (card1.color == 'blue') {
+      return -1;
+    } else if (card2.color == 'red') {
+      return -1;
+    } else if (card2.color == 'blue') {
+      return 1;
+    } else if (card1.color == 'yellow') {
+      return -1;
+    } else return 1;
+  }
+  return card1.name < card2.name ? -1 : +(card1.name > card2.name);
+}
