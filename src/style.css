@@ -43,3 +43,12 @@ body {
 .black {
   border-color: black;
 }
+
+.red {
+  border-color: red;
+}
+
+.zombie {
+  border-color: green;
+  background-color: gray;
+}

@@ -27,6 +27,11 @@ const Data = [
     Count: 3,
   },
   {
+    Name: "Johannesburg",
+    Color: "blue",
+    Count: 2,
+  },
+  {
     Name: "Kinshasa",
     Color: "yellow",
     Count: 1,
@@ -42,6 +47,11 @@ const Data = [
     Count: 1,
   },
   {
+    Name: "Dar es Salaam",
+    Color: "yellow",
+    Count: 2,
+  },
+  {
     Name: "Istanbul",
     Color: "black",
     Count: 3,
@@ -55,7 +65,22 @@ const Data = [
     Name: "Cairo",
     Color: "black",
     Count: 3,
-  }
+  },
+  {
+    Name: "Antananarivo",
+    Color: "black",
+    Count: 2,
+  },
+  {
+    Name: "Baghdad",
+    Color: "black",
+    Count: 2,
+  },
+  {
+    Name: "Hollow Men",
+    Color: "zombie",
+    Count: 4,
+  },
 ]
 
 export default Data;

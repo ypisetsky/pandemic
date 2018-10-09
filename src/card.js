@@ -55,6 +55,12 @@ export class CardData {
 
 export function CompareCards(card1, card2) {
   if (card1.color != card2.color) {
+    if (card1.color == 'zombie') {
+      return 1;
+    }
+    if (card2.color == 'zombie') {
+      return -1;
+    }
     if (card1.color == 'blue') {
       return -1;
     } else if (card2.color == 'red') {
